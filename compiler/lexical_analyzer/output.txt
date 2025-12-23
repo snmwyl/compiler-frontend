@@ -1,0 +1,19 @@
+Line   1, Col   2: IF        
+Line   1, Col   5: ID          'myid'
+Line   1, Col  10: GE        
+Line   1, Col  13: NUM         '1.5'
+Line   1, Col  17: THEN      
+Line   1, Col  22: ID          'x'
+Line   1, Col  24: ASSIGN    
+Line   1, Col  26: ID          'y'
+Line   2, Col   1: WHILE     
+Line   2, Col   7: ID          'count'
+Line   2, Col  13: LT        
+Line   2, Col  15: NUM         '100'
+Line   2, Col  19: DO        
+Line   2, Col  22: ID          'count'
+Line   2, Col  28: ASSIGN    
+Line   2, Col  30: ID          'count'
+Line   2, Col  36: PLUS      
+Line   2, Col  38: NUM         '1'
+Line   2, Col  39: EOF       

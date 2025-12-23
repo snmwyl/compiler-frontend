@@ -1,0 +1,7 @@
+=== Symbol Table Report ===
+
+Total symbols: 3
+
+z: string [Line: 4, Init: Yes, Used: Yes]
+y: int [Line: 2, Init: Yes, Used: Yes]
+x: int [Line: 1, Init: Yes, Used: Yes]

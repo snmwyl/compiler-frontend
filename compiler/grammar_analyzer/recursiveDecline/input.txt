@@ -1,0 +1,12 @@
+begin
+    x = 10 + 20;
+    y = x * 3;
+    
+    if x > 15 then
+        z = "Greater";
+    else
+        z = "Less";
+    
+    while y < 100 do
+        y = y + 10;
+end

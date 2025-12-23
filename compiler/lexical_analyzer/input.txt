@@ -1,0 +1,2 @@
+if myid >= 1.5 then x = y
+while count < 100 do count = count + 1
