@@ -1,0 +1,5 @@
+=== Semantic Error Report ===
+
+Total errors: 0
+
+No semantic errors found.

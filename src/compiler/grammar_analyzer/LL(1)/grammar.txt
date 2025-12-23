@@ -1,0 +1,29 @@
+# 简单算术表达式文法
+S' -> E
+E -> T E'
+E' -> + T E'
+E' -> - T E'
+E' -> ε
+T -> F T'
+T' -> * F T'
+T' -> / F T'
+T' -> ε
+F -> id
+F -> num
+F -> ( E )
+
+# 控制语句文法
+S -> begin L end
+L -> S L
+L -> ε
+S -> id = E ;
+S -> if C then S
+S -> if C then S else S
+S -> while C do S
+C -> E relop E
+relop -> ==
+relop -> !=
+relop -> <
+relop -> <=
+relop -> >
+relop -> >=
